@@ -7,3 +7,5 @@ out/
 # Large local inference assets are downloaded or managed separately.
 models/
 runtime/
+__pycache__/
+.tmp-e2e/

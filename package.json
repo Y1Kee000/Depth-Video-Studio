@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
-    "check": "node --check src/main.js && node --check src/preload.js && node --check src/renderer.js"
+    "check": "node --check src/main.js && node --check src/preload.js && node --check src/renderer.js && python -m py_compile src/worker/depth_worker.py"
   },
   "author": "Y1Kee000",
   "license": "UNLICENSED",
