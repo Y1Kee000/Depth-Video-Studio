@@ -1,0 +1,9 @@
+node_modules/
+dist/
+out/
+.DS_Store
+*.log
+
+# Large local inference assets are downloaded or managed separately.
+models/
+runtime/

@@ -1,0 +1,15 @@
+{
+  "name": "depth-video-studio",
+  "version": "0.1.0",
+  "description": "A local-first desktop app that converts videos into depth-map videos.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "check": "node --check src/main.js && node --check src/preload.js && node --check src/renderer.js"
+  },
+  "author": "Y1Kee000",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^43.2.0"
+  }
+}
